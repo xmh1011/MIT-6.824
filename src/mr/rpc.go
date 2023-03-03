@@ -4,6 +4,7 @@ package mr
 // RPC definitions.
 //
 // remember to capitalize all names.
+// 所有的RPC都是大写的
 //
 
 import (
@@ -11,15 +12,15 @@ import (
 	"strconv"
 )
 
-//
 // example to show how to declare the arguments
 // and reply for an RPC.
 //
-
+// 示例，展示如何声明RPC的参数
 type ExampleArgs struct {
 	X int
 }
 
+// 示例，展示如何声明RPC的返回值
 type ExampleReply struct {
 	Y int
 }

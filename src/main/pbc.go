@@ -13,7 +13,7 @@ package main
 // ./pbc /tmp/rtm-v key1 value1
 // ./pbc /tmp/rtm-v key1
 //
-// change "rtm" to your user name.
+// change "rtm" to your username.
 // start the pbd programs in separate windows and kill
 // and restart them to exercise fault tolerance.
 //

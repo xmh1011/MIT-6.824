@@ -16,6 +16,7 @@ type KeyValue struct {
 }
 
 //
+// 使用ihash（key）% NReduce为Map发出的每个KeyValue选择reduce任务编号。
 // use ihash(key) % NReduce to choose the reduce
 // task number for each KeyValue emitted by Map.
 //
@@ -26,7 +27,7 @@ func ihash(key string) int {
 }
 
 //
-// main/mrworker.go calls this function.
+// main/mrworker.go调用这个函数
 //
 func Worker(mapf func(string, string) []KeyValue,
 	reducef func(string, []string) string) {
