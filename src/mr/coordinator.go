@@ -9,11 +9,11 @@ import (
 )
 
 type Coordinator struct {
-	// Your definitions here.
+	// TODO：our definitions here.
 
 }
 
-// Your code here -- RPC handlers for the worker to call.
+// TODO: Your code here -- RPC handlers for the worker to call.
 
 //
 //
@@ -48,7 +48,7 @@ func (c *Coordinator) server() {
 func (c *Coordinator) Done() bool {
 	ret := false
 
-	// Your code here.
+	// TODO: Your code here.
 
 	return ret
 }
@@ -61,7 +61,7 @@ func (c *Coordinator) Done() bool {
 func MakeCoordinator(files []string, nReduce int) *Coordinator {
 	c := Coordinator{}
 
-	// Your code here.
+	// TODO: Your code here.
 
 	c.server()
 	return &c
