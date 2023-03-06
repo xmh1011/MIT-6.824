@@ -2,8 +2,8 @@ pkg/
 api.key
 .api.key.trimmed
 *-handin.tar.gz
-!/output/
+/output/
 # IDE
 **/.idea/
 /.vscode/
-!/.gitignore
+/.gitignore
