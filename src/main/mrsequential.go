@@ -5,6 +5,7 @@ package main
 //
 // go run mrsequential.go wc.so pg*.txt
 //
+// lab1的非分布式形式
 
 import (
 	"6.824/mr"
